@@ -1,0 +1,39 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  .app {
+    margin-top: 2%;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #585ef2 0%, #36b1f8 100%);
+  }
+  .card {
+    background-color: skyblue;
+    color: black;
+  }
+  img {
+    color: black;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
+  form {
+    display: inline;
+  }
+  #current-temp {
+    border-radius: 4px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+  }
+  #current-temp:hover {
+    transform: scale(1.05);
+    transition: all 2ms ease-in-out;
+  }
+  .search-bar {
+    padding: 10px;
+  }
+  
